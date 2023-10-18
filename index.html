@@ -197,7 +197,13 @@
 
       		<a-gltf-model src="#man" position="0.6 0.1 3" rotation="0 -90 0" scale="0.023 0.023 0.023"
      			 ></a-gltf-model>
-		<!-- Ceiling -->
+		<!-- Control -->
+		<a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
+		<a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
+		<a-entity id="leftHand" hand-tracking-controls="hand: left;"></a-entity>
+		<a-entity id="rightHand" hand-tracking-controls="hand: right;"></a-entity>
+		<a-entity laser-controls="hand: left"></a-entity>
+		
 		<a-plane height="110" width="62.5" rotation="-270 0 0" position="0 17.5 39.75" material="src: ceiling-tile.png; shader: flat; repeat: 20 20;"></a-plane>
 	</a-scene>
 
