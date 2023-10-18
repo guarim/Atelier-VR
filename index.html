@@ -155,7 +155,7 @@
 		</a-box>
 
 		<!-- Behind wall -->
-		<a-box width="82.5" height="35" depth="0.25" position="0 0 95" rotation="0 180 0" color="#F3D18B">
+		<a-box width="92.5" height="35" depth="0.25" position="0 0 95" rotation="0 180 0" color="#F3D18B">
 			<a-entity position="0 0 25">
 			  <a-camera id="camera-4" active="false"></a-camera>
 			</a-entity>
@@ -185,17 +185,17 @@
 		<!-- Ground -->
 		<a-plane height="110" width="82.5" rotation="-90 0 0" position="0 -17.5 39.75" material="src: white-wood.jpg; shader: flat; repeat: 6 6;"></a-plane>
 
-		<a-gltf-model src="#desk" position="0 -17 0" rotation="0 0 0" scale="1.8 1.8 1.8" ></a-gltf-model>
+		<a-gltf-model src="#desk" position="0 -17 39.80" rotation="0 0 0" scale="1.8 1.8 1.8" ></a-gltf-model>
        
-       		<a-gltf-model src="#room" position="-1 -17.4 0.1" rotation="0 0 0" scale="5 4 4" ></a-gltf-model>
+       		<a-gltf-model src="#room" position="-1 -17.4 39.80" rotation="0 0 0" scale="5 4 4" ></a-gltf-model>
       
-     		<a-gltf-model src="#person" position="0.6 -17.4 0" rotation="0 90 0" scale="1 1 1"
+     		<a-gltf-model src="#person" position="0.6 -17.4 39.8" rotation="0 90 0" scale="1 1 1"
        					animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" ></a-gltf-model>
 
-      		<a-gltf-model src="#vr" position="0.6 -17.4 0" rotation="0 200 0" scale="0.35 0.4 0.45"
+      		<a-gltf-model src="#vr" position="0.6 -17.4 39.8" rotation="0 200 0" scale="0.35 0.4 0.45"
        					animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" ></a-gltf-model>
 
-      		<a-gltf-model src="#man" position="0.6 0.1 3" rotation="0 -90 0" scale="0.023 0.023 0.023"
+      		<a-gltf-model src="#man" position="0.6 0.1 39.8" rotation="0 -90 0" scale="0.023 0.023 0.023"
      			 ></a-gltf-model>
 		<!-- Control -->
 		<a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc"></a-entity>
